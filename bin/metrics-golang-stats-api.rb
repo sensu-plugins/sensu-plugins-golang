@@ -1,5 +1,5 @@
 #! /usr/bin/env ruby
-#  encoding: UTF-8
+#
 #   golang-stats-api-metrics
 #
 # DESCRIPTION:
@@ -28,14 +28,16 @@
 #   for details.
 #
 
-require 'rubygems' if RUBY_VERSION < '1.9.0'
 require 'sensu-plugin/metric/cli'
 require 'net/https'
 require 'uri'
 require 'socket'
 require 'oj'
 
-class NginxMetrics < Sensu::Plugin::Metric::CLI::Graphite
+#
+# Golang Metrics
+#
+class GolangMetrics < Sensu::Plugin::Metric::CLI::Graphite
   option :url,
          short: '-u URL',
          long: '--url URL',
@@ -65,7 +67,7 @@ class NginxMetrics < Sensu::Plugin::Metric::CLI::Graphite
          long: '--scheme SCHEME',
          default: "#{Socket.gethostname}.golang-stats"
 
-  def run
+  def run # rubocop:disable all
     found = false
     attempts = 0
     until found || attempts >= 10
