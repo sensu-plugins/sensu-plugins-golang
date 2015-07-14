@@ -1,6 +1,6 @@
 ## Sensu-Plugins-golang
 
-[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-golang.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-golang)
+[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-golang.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-golang)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-golang.svg)](http://badge.fury.io/rb/sensu-plugins-golang)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-golang/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-golang)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-golang/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-golang)
