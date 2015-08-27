@@ -67,7 +67,7 @@ class GolangMetrics < Sensu::Plugin::Metric::CLI::Graphite
          long: '--scheme SCHEME',
          default: "#{Socket.gethostname}.golang-stats"
 
-  def run # rubocop:disable all
+  def run
     found = false
     attempts = 0
     until found || attempts >= 10
