@@ -12,6 +12,7 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ### Changed
 - Loosen `sensu-plugin` dependency to `~> 1.2` (@mattyjones)
+- Update `oj` to `2.18.1` for Ruby 2.4 support
 
 ## [0.0.3] - 2015-07-14
 ### Changed
