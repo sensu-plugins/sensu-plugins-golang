@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
+### Removed
+- Ruby 1.9.3 from deploy-time testing (@eheydrick)
 
 ## [1.0.0] - 2017-06-14
 ### Added
