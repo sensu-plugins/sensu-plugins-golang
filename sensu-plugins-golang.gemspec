@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.version                = SensuPluginsGolang::Version::VER_STRING
 
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
-  s.add_runtime_dependency 'oj',           '2.18.1'
+  s.add_runtime_dependency 'oj',           '3.7.9'
 
   s.add_development_dependency 'bundler',                   '~> 1.7'
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
